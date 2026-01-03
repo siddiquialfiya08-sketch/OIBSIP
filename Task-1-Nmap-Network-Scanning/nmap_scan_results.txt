@@ -1,0 +1,14 @@
+5500/tcp open  hotline C:\Users\Demo>nmap localhost
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-01-03 14:44 +0530
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00010s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+1521/tcp open  oracle
+3306/tcp open  mysql
+7070/tcp open  realserver
